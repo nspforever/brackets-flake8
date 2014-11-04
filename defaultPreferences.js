@@ -13,7 +13,7 @@ define(function (require, exports, module) {
     };
 
     defaultPreferences.flake8IsInSystemPath = true;
-    defaultPreferences.flake8Path           = "/usr/bin/flake8";
+    defaultPreferences.flake8Path           = "/usr/local/bin/flake8";
 
     module.exports = defaultPreferences;
 });
