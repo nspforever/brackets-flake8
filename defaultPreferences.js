@@ -12,7 +12,7 @@ define(function (require, exports, module) {
         "msysflake8Path":                     null
     };
 
-    defaultPreferences.flake8IsInSystemPath = true;
+    defaultPreferences.flake8IsInSystemPath = false;
     defaultPreferences.flake8Path           = "/usr/local/bin/flake8";
 
     module.exports = defaultPreferences;
